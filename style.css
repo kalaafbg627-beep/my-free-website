@@ -1,0 +1,67 @@
+ody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #4b6cb7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background: white;
+    color: #4b6cb7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+header nav button:hover {
+    background: #182848;
+    color: white;
+}
+
+main {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+section {
+    display: none;
+}
+
+.active-section {
+    display: block;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 12px 25px;
+    background: #4b6cb7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #182848;
+}
